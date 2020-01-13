@@ -13,7 +13,7 @@ you need to do `pip install`brew install openssl` and potential configure your p
 `$ python ssl_test.py  --inputfile  sample.in  --outfile out.jsonlines`
 `$ cat out.jsonlines`
 
-### #Advanced
+### Advanced
 Doesnt not verfiy CRLs by default, pass the  `--verifyCrl` to do so. However this will dramatically slow things down.
 
 `$ python ssl_test.py  --i sample.in   --o out.jsonlines --verifyCrl `
